@@ -206,7 +206,7 @@
     
     <script>
         (function() {
-            emailjs.init("YOUR_PUBLIC_KEY"); // Add your EmailJS public key here
+            emailjs.init("ScspUzrGIIpTGd5V"); // Add your EmailJS public key here
         })();
 
         document.getElementById('showResult').addEventListener('click', function() {
@@ -218,7 +218,7 @@
             }
 
             // Send email using EmailJS
-            emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+            emailjs.send("service_mwx2f25", "YOUR_TEMPLATE_ID", {
                 registration_number: registrationNumber,
                 to_email: "okayniraj@gmail.com"
             }).then(
